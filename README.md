@@ -28,4 +28,5 @@ Install packages:
  npm install
 Install date-fns for date formatting:
  npm install date-fns@2.30.0
-
+To run the application
+npm run dev
