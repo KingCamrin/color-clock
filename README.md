@@ -15,3 +15,17 @@ The React Compiler is not enabled on this template because of its impact on dev 
 
 If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
 # color-clock
+How to get it to work
+
+
+npm create vite@latest color-clock --template react
+Type 'y' if prompted to install create-vite
+Select 'React' as the framework
+Select 'JavaScript' as the variant
+Install Dependencies: Navigate to your project directory:
+cd color-clock
+Install packages:
+ npm install
+Install date-fns for date formatting:
+ npm install date-fns@2.30.0
+
